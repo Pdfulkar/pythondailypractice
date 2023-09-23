@@ -1,0 +1,5 @@
+n = int(input())
+eng = set(map(int, input().split()))
+n2 = int(input())
+fr = set(map(int, input().split()))
+print(len(eng.difference(fr)))

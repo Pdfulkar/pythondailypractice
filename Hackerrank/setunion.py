@@ -1,0 +1,5 @@
+N = int(input())
+roll_no_eng =set(map(int, input().split()))
+N2 = int(input())
+roll_no_fr = set(map(int, input().split()))
+print(len(roll_no_eng.union(roll_no_fr)))

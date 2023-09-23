@@ -1,0 +1,8 @@
+n = int(input())
+a = set(map(int,input().split()))
+n2 = int(input())
+b = set(map(int, input().split()))
+sol = a.symmetric_difference(b)
+final_sol= list(sol)
+final_sol.sort()
+print(*final_sol , sep = "\n")
