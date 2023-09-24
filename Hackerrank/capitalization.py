@@ -1,0 +1,6 @@
+N = input()
+N.split()
+print(N)
+name = N[0].capitalize()
+sur = N[1].capitalize()
+print(name+" "+sur)
